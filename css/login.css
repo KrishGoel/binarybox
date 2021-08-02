@@ -1,0 +1,27 @@
+.loginInput {
+	border-radius: 7px;
+	border-width: 1px;
+	border-color: #000000;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	width: 250px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.loginButton {
+	border-radius: 7px;
+	border-width: 1px;
+	border-color: #000000;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	width: 250px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	background-color: #ffffff;
+}
+.loginButton:hover {
+	background-color: #bbb;
+	color: #fff;
+}

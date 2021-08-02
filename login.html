@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Binary Box</title>
+      <!--Meta data-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+      <meta charset="UTF-8">
+      <!--Google font libraries-->
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+      <!--FontAwesomeIconLibrary-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--Bootstrap grid CSS-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!--Stylesheets-->
+      <link rel="stylesheet" type="text/css" href="css/topnav.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+      <link rel="stylesheet" type="text/css" href="css/login.css">
+      <<!--Animations libraby-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="topnav" id="topnav">
+         <!--<audio controls class="audioControls">
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio> -->
+         <div class="openLinks topnavLinks" id="openLinks">
+            <a href="login.html">Login</a>
+            <a href="#">Lorem</a>
+            <a href="#">Lorem</a>
+            <a href="#">Lorem</a>
+         </div>
+         <a href="index.html" class="logoLink"><img src="css/images/logo.png" id="logo" class="logo" style="max-height: 65px;"></a>
+         <a class="menuToggle responsiveLinks" id="menuToggle">&#9776;</a>
+         <div class="closedLinks topnavLinks responsiveLinks" id="closedLinks">
+            <a href="#">Lorem</a>
+            <a href="#">Lorem</a>
+            <a href="#">Lorem</a>
+            <a href="#">Lorem</a>
+         </div>
+      </nav>
+      
+      <div class="parallaxSection" id="parallaxSection">
+         <div class="container firstSection">
+            <div class="col-lg-12"><br><br>
+               <p class="mainHead" style="font-weight: bold;">Login or Signup</p>
+               <div class="row">
+                  <div class="col-lg-4"></div>
+                  <div class="col-lg-4" style="text-align: center;">
+                     <input type="text" class="loginInput" placeholder="Username"><br>
+                     <input type="password" class="loginInput" placeholder="Password"><br>
+                     <a href="dashboard.html"><button class="loginButton">Login</button></a>
+                     <button class="loginButton">Signup</button>
+                  </div>
+                  <div class="col-lg-4"></div>
+               </div>
+            </div>
+         </div>
+         
+         <p class="headText" style="text-align: center; font-size: 15px; padding-bottom: 20px; width: 100%;">Designed by <a href="www.projectbeta.tech" class="contactDetail">Project<strong>Beta</strong></a></p>
+      </footer>
+      <!--JQuery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <!--Slideshow JS-->
+      <script type="text/javascript">
+         var myIndex = 0;
+         carousel();
+         function carousel() {
+             var i;
+             var x = document.getElementsByClassName("mySlides");
+             for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+             }
+             myIndex++;
+             if (myIndex > x.length) {myIndex = 1}    
+             x[myIndex-1].style.display = "block";  
+             setTimeout(carousel, 2000);
+          }
+      </script>
+      <!--Bootstrap grid JS-->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="website.js"></script>
+      <script type="text/javascript" src="whatsappOrder.js"></script>
+      <!--Fade library-->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
+</html>

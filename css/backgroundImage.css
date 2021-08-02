@@ -1,0 +1,23 @@
+body {
+    background-image: url("images/backgroundImageOneOne.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    background-position: center center;
+	margin: 0;
+	padding: 0;
+}
+.secondSection {
+    width: 100%;
+    background-image: url("images/backgroundImageTwo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fourthSection {
+	width: 100%;
+    background-image: url("images/backgroundImageThree.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
